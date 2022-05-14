@@ -1,9 +1,9 @@
 package r0612;
 
-public class C02Else {
+public class C01If {
 
 	public static void main(String[] args) {
-		// If-Else statement
+		//If Statement
 		
 		int visitCnt = 0;
 		
@@ -12,10 +12,9 @@ public class C02Else {
 			visitCnt++;
 		}
 		
-		else {
-			System.out.println("재방문");
+		if(visitCnt >= 1) {
+			System.out.println("방문");
 		}
-
 	}
 
 }
